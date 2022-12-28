@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    }
+
+    body,
+    button {
+      font-family: 'Nunito Sans', sans-serif;
+    }
+
+    header {
+        background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    header .holder,
+    .search_filter_holder {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .search_filter_holder {
+      margin-top: 23px;
+    }
+
+    .holder {
+      padding: 1.7% 5.5% 1.3% 5.6%;
+    }
+
+    .app_heading {
+      font-size: 1.5rem;
+    }
+
+    .button_modeChanger {
+      font-size: 0.95rem;
+    }
+
+    .search_holder {
+      padding: 5px 0;
+      width: 35%;
+    }
+
+    .filter_holder {
+      padding: 5px 0;
+      width: 20%;
+    }
+
+    
+    .MuiInput-underline:after {
+      border-bottom: none !important;
+    }
+
+    .MuiInput-underline:before {
+      border-bottom: none !important;
+    }
+
+    .show {
+      display: block;
+    }
+
+    .hide {
+      display: none;
+    }
+
+    .countries-list {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: 21px 0;
+    }
+
+    .country-holder {
+      width: 263px;
+      margin: 20px 0;
+      border-radius: 5px;
+    }
+
+    .flag-image {
+      width: 100%;
+      height: 160px;
+      overflow: hidden;
+      border-radius: 5px 5px 0 0;
+    }
+
+    .country-data {
+      margin: 20px;
+      text-align: left;
+      padding: 7px 5px 15px;
+      letter-spacing: 0.5px;
+    }
+
+    h3 {
+      font-size: 1rem;
+      margin-bottom: 18px;
+    }
+
+    .country-data p {
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+
+    .country-data span {
+      font-weight: 300;
+    }
+
+    .css-g1d714-ValueContainer {
+      direction: ltr;
+    }
+
+    .css-yk16xz-control {
+      border: none !important;
+      border-radius: 5px;
+    }
+
+    .css-26l3qy-menu {
+      text-align: left;
+    }
+
+    .country_detail_holder {
+      display: flex;
+      margin-top: 78px;
+      justify-content: space-between;
+    }
+
+    .button_holder {
+      margin-top: 56px;
+    }
+
+    .MuiButton-root {
+      width: 138px;
+      height: 40px;
+      text-transform: capitalize !important;
+      font-size: 0.9rem !important;
+      letter-spacing: 0.5px !important;
+      font-weight: 200 !important;
+    }
+
+    .MuiButton-contained {
+      box-shadow: 0px 1px 6px 3px rgba(0,0,0,0.2), 
+                  0px 2px 2px 0px rgba(0,0,0,0.14), 
+                  0px 1px 5px 0px rgba(0,0,0,0.12) !important;
+
+    }
+
+    .description_holder {
+      width: 47%;
+      padding-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    .description_holder h2 {
+      font-size: 1.9rem;
+      letter-spacing: 1.2px;
+    }
+
+    .borders_item {
+      display: inline-block;
+      margin: 2px;
+      border: 2px solid rgba(0,0,0,0.04);
+      border-radius: 2px;
+      font-size: 0.9rem;
+      min-width: 90px;
+      padding: 4px;
+      text-align: center;
+    }
+
+    .borders_item:first-of-type {
+      margin-left: 15px;
+    }
+
+    .flex_detail_container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+      margin-bottom: 58px;
+    }
+
+    .flex_detail_container p {
+      margin-bottom: 10px;
+    }
+
+    .border_holder p {
+      display: inline-block;
+    }
+    
+    @media screen and (max-width: 1000px) {
+      .country_detail_holder {
+        flex-wrap: wrap;
+      }
+
+      .country_detail_holder .flag-image {
+        width: 100% !important;
+        height: 80vh !important;
+      }
+
+      .flex_detail_container {
+        flex-wrap: wrap;
+      }
+
+      .description_holder {
+        margin-top: 40px;
+        width: 100%;
+      }
+
+      .filter_holder {
+        width: 30%;
+      }
+
+    }
+
+    @media screen and (max-width: 889px) {
+      .country-holder {
+        width: 45%;
+      }
+
+      .country-holder .flag-image {
+        height: 200px;
+      }
+
+      .search_holder {
+        width: 50%;
+      }
+
+    }
+
+    @media screen and (max-width: 600px) {
+
+      .flex_detail_container div:nth-child(2) {
+        margin-top: 40px;
+      }
+
+      .flex_detail_container div {
+        width: 100%;
+      }
+
+      .border_holder p {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      .borders_item:first-of-type {
+        margin-left: 0;
+      }
+
+      .country-holder {
+        width: 100%;
+      }
+
+      .search_holder {
+        width: 100%;
+      }
+
+      .filter_holder {
+        margin-top: 20px;
+        width: 50%;
+      }
+
+      .search_filter_holder {
+        flex-wrap: wrap;
+      }
+
+      .country_detail_holder .flag-image {
+        height: 60vh !important;
+      }
+
+    
+    }
+
+
+    
